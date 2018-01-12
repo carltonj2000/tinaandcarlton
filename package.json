@@ -1,0 +1,27 @@
+{
+  "name": "tinaandcarlton",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "styled-components": "^2.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "imgOpt": "node src/scripts/imgOptimize.js",
+    "imgImp": "node src/scripts/imgGenerateImports.js",
+    "export":
+      "PUBLIC_URL='https://tinaandcarlton.com/photographer' npm run build",
+    "rsync":
+      "rsync -avzL build/ carltonjoseph.com:/mnt/volume-sfo2-01/cj/tinaandcarltondotcom/photographer/",
+    "toserver": "run-s export rsync"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.2"
+  }
+}
