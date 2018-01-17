@@ -53,6 +53,7 @@ class App extends Component {
             photos={photos}
             photoModalOpen={this.openModal}
           />
+          <h3>Portrait</h3>
           <Photos
             images={images2}
             photos={photos2}
