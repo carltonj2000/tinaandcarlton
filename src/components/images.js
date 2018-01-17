@@ -1,6 +1,5 @@
 const IMG_0736 = require("../static/optimized/IMG_0736.JPG");
 const IMG_0751 = require("../static/optimized/IMG_0751.JPG");
-const IMG_0775 = require("../static/optimized/IMG_0775.JPG");
 const IMG_0794 = require("../static/optimized/IMG_0794.JPG");
 const IMG_0799 = require("../static/optimized/IMG_0799.JPG");
 const IMG_0802 = require("../static/optimized/IMG_0802.JPG");
@@ -29,7 +28,6 @@ const IMG_0835 = require("../static/optimized/IMG_0835.JPG");
 exports.photos = [
   { name: IMG_0736, rotate: "0deg" },
   { name: IMG_0751, rotate: "0deg" },
-  { name: IMG_0775, rotate: "0deg" },
   { name: IMG_0794, rotate: "0deg" },
   { name: IMG_0799, rotate: "0deg" },
   { name: IMG_0802, rotate: "0deg" },

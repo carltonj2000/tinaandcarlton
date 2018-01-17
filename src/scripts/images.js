@@ -1,7 +1,6 @@
 exports.images = [
   { name: "IMG_0736.JPG", inlay: "", text: "May need flash" },
   { name: "IMG_0751.JPG", inlay: "", text: "May need flash" },
-  { name: "IMG_0775.JPG", inlay: "", text: "" },
   { name: "IMG_0794.JPG", inlay: "", text: "" },
   { name: "IMG_0799.JPG", inlay: "", text: "" },
   { name: "IMG_0802.JPG", inlay: "", text: "" },

@@ -58,6 +58,7 @@ class App extends Component {
             photos={photos2}
             photoModalOpen={this.openModal}
           />
+          <h3>Group Picture Locations</h3>
           <Photos
             images={images3}
             photos={photos3}
