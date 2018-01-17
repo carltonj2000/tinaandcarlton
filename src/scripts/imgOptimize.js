@@ -5,7 +5,8 @@
 
 const path = require("path");
 const { exec } = require("child_process");
-const { images, srcs, dsts } = require("./images");
+const { images3, srcs, dsts } = require("./images");
+const images = images3;
 
 const srcNoOpt = srcs[0].name;
 const optDst = dsts[0].name;

@@ -1,7 +1,6 @@
 exports.images = [
   { name: "IMG_0736.JPG", inlay: "", text: "May need flash" },
   { name: "IMG_0751.JPG", inlay: "", text: "May need flash" },
-  { name: "IMG_0773.JPG", inlay: "", text: "" },
   { name: "IMG_0775.JPG", inlay: "", text: "" },
   { name: "IMG_0794.JPG", inlay: "", text: "" },
   { name: "IMG_0799.JPG", inlay: "", text: "" },
@@ -23,6 +22,13 @@ exports.images2 = [
   { name: "IMG_0785.JPG", inlay: "", text: "" },
   { name: "IMG_0787.JPG", inlay: "", text: "" },
   { name: "IMG_0815.JPG", inlay: "IMG_0814.JPG", text: "" }
+];
+
+exports.images3 = [
+  { name: "IMG_0739.JPG", inlay: "", text: "" },
+  { name: "IMG_0740.JPG", inlay: "", text: "" },
+  { name: "IMG_0773.JPG", inlay: "", text: "" },
+  { name: "IMG_0835.JPG", inlay: "", text: "" }
 ];
 
 exports.srcs = [
