@@ -32,8 +32,8 @@ class App extends Component {
   closeModal = () => this.setState({ isOpen: false });
   nextImg = (by, images) =>
     this.setState(state => {
-      let imgIdx = (state.imgIdx + by) % images.length;
-      if (imgIdx < 0) imgIdx = images.length - 1;
+      let imgIdx = (state.imgIdx + by) % state.images.length;
+      if (imgIdx < 0) imgIdx = state.images.length - 1;
       return { img: state.photos[imgIdx].name, imgIdx: imgIdx };
     });
   render = () => {
